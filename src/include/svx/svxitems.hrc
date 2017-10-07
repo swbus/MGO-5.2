@@ -1,0 +1,68 @@
+/* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
+/*
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ */
+
+#ifndef INCLUDED_SVX_SVXITEMS_HRC
+#define INCLUDED_SVX_SVXITEMS_HRC
+
+#include <svl/solar.hrc>
+
+// enum SvxCellOrientation
+#define RID_SVXITEMS_ORI_STANDARD           (RID_SVXITEMS_START + 410)
+#define RID_SVXITEMS_ORI_TOPBOTTOM          (RID_SVXITEMS_START + 411)
+#define RID_SVXITEMS_ORI_BOTTOMTOP          (RID_SVXITEMS_START + 412)
+#define RID_SVXITEMS_ORI_STACKED            (RID_SVXITEMS_START + 413)
+
+// Complete-Texte -----------------------------------------------------------
+
+#define RID_SVXITEMS_MARGIN_LEFT            (RID_SVXITEMS_START + 480)
+#define RID_SVXITEMS_MARGIN_TOP             (RID_SVXITEMS_START + 481)
+#define RID_SVXITEMS_MARGIN_RIGHT           (RID_SVXITEMS_START + 482)
+#define RID_SVXITEMS_MARGIN_BOTTOM          (RID_SVXITEMS_START + 483)
+#define RID_SVXITEMS_PAGE_COMPLETE          (RID_SVXITEMS_START + 498)
+#define RID_SVXITEMS_PAGE_NUM_BEGIN         (RID_SVXITEMS_START + 499)
+#define RID_SVXITEMS_PAGE_NUM_CHR_UPPER     (RID_SVXITEMS_START + 499)
+#define RID_SVXITEMS_PAGE_NUM_CHR_LOWER     (RID_SVXITEMS_START + 500)
+#define RID_SVXITEMS_PAGE_NUM_ROM_UPPER     (RID_SVXITEMS_START + 501)
+#define RID_SVXITEMS_PAGE_NUM_ROM_LOWER     (RID_SVXITEMS_START + 502)
+#define RID_SVXITEMS_PAGE_NUM_ARABIC        (RID_SVXITEMS_START + 503)
+#define RID_SVXITEMS_PAGE_NUM_NONE          (RID_SVXITEMS_START + 504)
+#define RID_SVXITEMS_PAGE_LAND_TRUE         (RID_SVXITEMS_START + 505)
+#define RID_SVXITEMS_PAGE_LAND_FALSE        (RID_SVXITEMS_START + 506)
+#define RID_SVXITEMS_PAGE_USAGE_LEFT        (RID_SVXITEMS_START + 507)
+#define RID_SVXITEMS_PAGE_USAGE_RIGHT       (RID_SVXITEMS_START + 508)
+#define RID_SVXITEMS_PAGE_USAGE_ALL         (RID_SVXITEMS_START + 509)
+#define RID_SVXITEMS_PAGE_USAGE_MIRROR      (RID_SVXITEMS_START + 510)
+#define RID_SVXITEMS_AUTHOR_COMPLETE        (RID_SVXITEMS_START + 521)
+#define RID_SVXITEMS_DATE_COMPLETE          (RID_SVXITEMS_START + 522)
+#define RID_SVXITEMS_TEXT_COMPLETE          (RID_SVXITEMS_START + 523)
+
+#define RID_SVXITEMS_BRUSH_CHAR             (RID_SVXITEMS_START + 527)
+#define RID_ATTR_NAMES                      (RID_SVXITEMS_START + 528)
+
+// Ueberlaufpruefung --------------------------------------------------------
+
+// Resource-Id's
+#define ACT_RID_SVXITEMS_END    RID_ATTR_NAMES
+#if ACT_RID_SVXITEMS_END > RID_SVXITEMS_END
+#error Resource-Ueberlauf in #line, #file
+#endif
+
+#endif
+
+/* vim:set shiftwidth=4 softtabstop=4 expandtab: */
